@@ -1,0 +1,2 @@
+遍历节点: out new worlds
+遍历边: ('out', 'new') ('new', 'worlds')
