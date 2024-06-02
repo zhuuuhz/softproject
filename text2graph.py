@@ -25,7 +25,7 @@ def create_digraph_from_file(file_path):
 # 可视化有向图
 def visualize_digraph(G):
     # 计算布局
-    pos = nx.spring_layout(G)
+    pos = nx.kamada_kawai_layout(G)
     # 创建有向图边的字典
     edge_labels = {(source, target): G[source][target]['weight'] for source, target in G.edges()}
     # 绘制图G和权重
